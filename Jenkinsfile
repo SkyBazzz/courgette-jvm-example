@@ -1,5 +1,7 @@
 pipeline {
-    agent linux
+    agent {
+        'linux'
+    }
 
     stages {
         stage ('Compile Stage') {

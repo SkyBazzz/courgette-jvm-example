@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da21c887-4bed-4689-a719-5e2f3b12e1e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,16 +42,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="177" />
+          <entry key="Jenkinsfile" value="194" />
           <entry key="java" value="25" />
-          <entry key="txt" value="58" />
+          <entry key="txt" value="63" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="25" />
-          <entry key="PLAIN_TEXT" value="235" />
+          <entry key="PLAIN_TEXT" value="257" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -116,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -260,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557064889672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557065088204" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ctco-orke-aqa" />
   </component>
   <component name="RunDashboard">
@@ -364,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557054933740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ubuntu node run">
+      <created>1557064880530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557064880530</updated>
+    </task>
+    <task id="LOCAL-00005" summary="linux">
+      <created>1557064976499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557064976499</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,7 +438,8 @@
     <MESSAGE value="jenkins file is added" />
     <MESSAGE value="changed from sh to bat" />
     <MESSAGE value="ubuntu node run" />
-    <option name="LAST_COMMIT_MESSAGE" value="ubuntu node run" />
+    <MESSAGE value="linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature1.feature">
@@ -481,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
