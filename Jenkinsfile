@@ -1,18 +1,18 @@
 pipeline {
-    agent any
+    agent UbuntuNode
 
     stages {
         stage ('Compile Stage') {
             steps {
                 withMaven(maven : 'maven') {
-                    bat 'mvn clean compile'
+                    sh 'mvn clean compile'
                 }
             }
         }
         stage ('Testing Stage') {
             steps {
                 withMaven(maven : 'maven') {
-                    bat 'mvn test'
+                    sh 'mvn test'
                 }
             }
         }
