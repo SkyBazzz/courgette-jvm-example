@@ -1,5 +1,5 @@
 pipeline {
-    agent UbuntuWithMvnDocker
+    agent linux
 
     stages {
         stage ('Compile Stage') {
