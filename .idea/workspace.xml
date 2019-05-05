@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da21c887-4bed-4689-a719-5e2f3b12e1e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,16 +41,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Jenkinsfile" value="167" />
+          <entry key="Jenkinsfile" value="177" />
           <entry key="java" value="25" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="58" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="25" />
-          <entry key="PLAIN_TEXT" value="210" />
+          <entry key="PLAIN_TEXT" value="235" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -117,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -261,7 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557054917200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557064866018" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ctco-orke-aqa" />
   </component>
   <component name="RunDashboard">
@@ -358,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557054174491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ubuntu node run">
+      <created>1557054933740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557054933740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -416,7 +422,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jenkins file is added" />
     <MESSAGE value="changed from sh to bat" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed from sh to bat" />
+    <MESSAGE value="ubuntu node run" />
+    <option name="LAST_COMMIT_MESSAGE" value="ubuntu node run" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature1.feature">
@@ -474,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
