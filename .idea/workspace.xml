@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da21c887-4bed-4689-a719-5e2f3b12e1e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +18,16 @@
     <session id="-1077139212">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Jenkinsfile" value="1" />
+          <entry key="class" value="1" />
           <entry key="feature" value="5" />
           <entry key="html" value="1" />
           <entry key="java" value="2" />
@@ -33,6 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Cucumber" value="5" />
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="2" />
@@ -43,15 +48,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Jenkinsfile" value="297" />
-          <entry key="java" value="25" />
-          <entry key="txt" value="94" />
+          <entry key="java" value="329" />
+          <entry key="txt" value="105" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25" />
-          <entry key="PLAIN_TEXT" value="391" />
+          <entry key="JAVA" value="329" />
+          <entry key="PLAIN_TEXT" value="402" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -61,12 +66,20 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature1.feature">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature2.feature">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -87,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="272">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -102,19 +115,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/TestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="369">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1719#1720#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -127,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -137,6 +152,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>withMaven</find>
+      <find>127.0.0.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,10 +174,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/steps/TestSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/TestSteps.java" />
       </list>
     </option>
   </component>
@@ -194,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -252,16 +267,47 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="courgette-jvm-maven-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="courgette-jvm-maven-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="courgette-jvm-maven-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.14.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courgette-jvm-maven-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.14.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courgette-jvm-maven-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.14.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557071723901" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557169854472" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ctco-orke-aqa" />
   </component>
   <component name="RunDashboard">
@@ -428,17 +474,45 @@
       <option name="project" value="LOCAL" />
       <updated>1557071571193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="delete git">
+      <created>1557072067537</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557072067537</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScenarioSuite - 2019.05.05 at 12h 43m 09s.xml">
+    <history-entry file="ScenarioSuite - 2019.05.06 at 21h 50m 49s.xml">
       <configuration name="ScenarioSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScenarioSuite - 2019.05.05 at 12h 43m 43s.xml">
+    <history-entry file="ScenarioSuite - 2019.05.06 at 21h 56m 18s.xml">
       <configuration name="ScenarioSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScenarioSuite - 2019.05.05 at 12h 45m 42s.xml">
+    <history-entry file="ScenarioSuite - 2019.05.06 at 21h 57m 55s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 01m 52s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 03m 36s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 05m 15s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 06m 38s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 08m 00s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 10m 13s.xml">
+      <configuration name="ScenarioSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScenarioSuite - 2019.05.06 at 22h 10m 38s.xml">
       <configuration name="ScenarioSuite" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -446,7 +520,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,8 +531,8 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,15 +564,29 @@
     <MESSAGE value="linux" />
     <MESSAGE value="test with default maven" />
     <MESSAGE value="git test" />
-    <option name="LAST_COMMIT_MESSAGE" value="git test" />
+    <MESSAGE value="delete git" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/TestSteps.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/TestSteps.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature1.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature2.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/courgette-report/index.html" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/FeatureWithDataTable.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -515,41 +603,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/courgette-report/index.html">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature1.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Feature2.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/ScenarioSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TestSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Courgette.class)
 @CourgetteOptions(
-        threads = 10,
+        threads = 2,
         runLevel = CourgetteRunLevel.SCENARIO,
         showTestOutput = true,
         reportTargetDir = "target",
