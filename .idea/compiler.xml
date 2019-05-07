@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="courgette-jvm-maven-example" target="1.5" />
+      <module name="courgette-jvm-maven-example" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

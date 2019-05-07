@@ -1,14 +1,9 @@
 package steps;
 
-import java.net.MalformedURLException;
-import java.net.URI;
-
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -17,24 +12,16 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestSteps {
-    private RemoteWebDriver driver;
+    private WebDriver driver;
 
     @Before
-    public void before() throws MalformedURLException {
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("latest");
-        capabilities.setCapability("enableVNC", false);
-        capabilities.setCapability("enableVideo", false);
-
-        driver = new RemoteWebDriver(
-                URI.create("http://localhost:4444/wd/hub")
-                   .toURL(),
-                capabilities
-        );
-
+    public void before() {
+        WebDriverManager.chromedriver()
+                        .setup();
+        driver = new ChromeDriver();
     }
 
     @After
